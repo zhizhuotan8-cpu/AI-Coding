@@ -29,7 +29,7 @@ from agent.tools.gitee_api import mask_token
 from langchain.agents.middleware.types import AgentMiddleware, AgentState
 from langchain_core.messages import ToolMessage
 from langgraph.prebuilt.tool_node import ToolCallRequest
-from langgraph.types import Commandaz
+from langgraph.types import Command
 
 logger = logging.getLogger("agent.run.middleware.tool_sanitize")
 
